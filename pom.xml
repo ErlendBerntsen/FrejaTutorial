@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>no.hvl</groupId>
-            <artifactId>paf-annotations</artifactId>
+            <artifactId>freja-annotations</artifactId>
             <version>1.1</version>
         </dependency>
     </dependencies>
@@ -25,10 +25,10 @@
         <plugins>
             <plugin>
                 <groupId>no.hvl</groupId>
-                <artifactId>paf-maven-plugin</artifactId>
+                <artifactId>freja-maven-plugin</artifactId>
                 <version>1.1</version>
                 <configuration>
-                    <targetPath>C:\Users\Acer\IntelliJProjects\FrejaTutorialOutput</targetPath>
+                    <targetPath>C:\Users\Erlend\IdeaProjects\FrejaTutorialOutput</targetPath>
                     <keepOldDescriptions>true</keepOldDescriptions>
                     <ignore>
                         <ignore>pom.xml</ignore>
